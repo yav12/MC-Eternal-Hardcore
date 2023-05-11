@@ -1,0 +1,21 @@
+{
+	x: -13.5d,
+	y: -3.0d,
+	description: "*Right click with an empty hand to teleport to the top or bottom of a ladder*",
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "c0e0fb36",
+		type: "item",
+		items: [{
+			item: "minecraft:ladder"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "09b4814f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

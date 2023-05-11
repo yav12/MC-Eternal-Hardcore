@@ -1,0 +1,36 @@
+{
+	title: "&c&l&nStarting Quest",
+	icon: "extrautils2:contract",
+	x: -18.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Before you can begin your new adventure! you have to sign a contract which essentially says your soul belongs to me for all eternity blah blah everything you ever create is proprietary property of me &o*The writing becomes so small its unreadable*",
+	hide_dependency_lines: true,
+	size: 1.4d,
+	tasks: [{
+		uid: "3e8f72d9",
+		type: "checkmark",
+		title: "Sign here ... here... ... here ... and here ..."
+	}],
+	rewards: [{
+		uid: "29145916",
+		type: "loot",
+		title: "&7Common Lootbox &8&o&l(Random Reward)",
+		table: 1
+	},
+	{
+		uid: "5dd24709",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"Don\\u0027t die\"}"
+				],
+				author: "adam98991",
+				title: "§c§lHardcore Tip",
+				resolved: 1b
+			}
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Make a house a home",
+	x: -12.0d,
+	y: -0.5d,
+	description: "Build a house for shelter",
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "cb9727de",
+		type: "checkmark",
+		title: "Create a team and claim land",
+		icon: "openblocks:village_highlighter"
+	},
+	{
+		uid: "eb0b9527",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "30b30251",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6cbebd0b",
+		type: "item",
+		item: "biomesoplenty:terrarium 1 4"
+	}]
+}

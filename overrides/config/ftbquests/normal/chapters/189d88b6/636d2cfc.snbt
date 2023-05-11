@@ -1,0 +1,35 @@
+{
+	x: -12.0d,
+	y: -5.5d,
+	description: "&oI <3 you very much",
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "8195ae0a",
+		type: "item",
+		items: [{
+			item: "scalinghealth:heartcontainer"
+		}]
+	}],
+	rewards: [{
+		uid: "f38d3cfb",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "77a8d6cd",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3e866ee9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:water_striders"
+		}
+	}]
+}

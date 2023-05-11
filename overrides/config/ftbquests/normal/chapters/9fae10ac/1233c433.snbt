@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "9ba7f56f",
+		type: "advancement",
+		title: "Kill 1x Lich",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cqrepoured:cursed_bone"
+		},
+		advancement: "cqrepoured:cqr/bosses/kill_lich",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "19590366",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "0614cca3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

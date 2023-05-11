@@ -1,0 +1,42 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "624d1785",
+		type: "advancement",
+		title: "Kill 1x Giant Tortoise",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cqrepoured:chestplate_turtle"
+		},
+		advancement: "cqrepoured:cqr/bosses/kill_giant_tortoise",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "b7645610",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "09fc102d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	},
+	{
+		uid: "9e93acab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "unclaimed_black_market_container"
+			}
+		}
+	}]
+}

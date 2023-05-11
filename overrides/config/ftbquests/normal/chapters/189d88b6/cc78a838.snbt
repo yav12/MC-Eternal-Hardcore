@@ -1,0 +1,36 @@
+{
+	x: -11.0d,
+	y: -6.0d,
+	description: "&oThey come in waves! all they want is to destroy all of my hard work. What if I could skip it? Hmm I wonder...",
+	text: [
+		"Requires a diamond block to skip a raid!"
+	],
+	dependencies: [
+		"d22a6b71"
+	],
+	tasks: [{
+		uid: "c69b1268",
+		type: "item",
+		items: [{
+			item: "hw_inv:block_sacrifice"
+		}]
+	}],
+	rewards: [{
+		uid: "9ca1b435",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f304c7b2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -5863096196267452682L,
+					AS_Amulet_HolderMost: -2754331757198947019L
+				}
+			},
+			id: "erebus:exoskeleton_shield"
+		}
+	}]
+}

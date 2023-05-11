@@ -1,0 +1,31 @@
+{
+	title: "Forgotten trash can",
+	icon: "extrautils2:trashcan",
+	empty_weight: 1,
+	loot_size: 34,
+	rewards: [{
+		item: "rats:rat_burger",
+		count: 3,
+		only_one: true
+	},
+	{
+		item: "mod_lavacow:intestine",
+		random_bonus: 3,
+		only_one: true
+	},
+	{
+		item: "minecraft:spider_eye"
+	},
+	{
+		item: "biomesoplenty:fleshchunk"
+	}],
+	loot_crate: {
+		string_id: "starting_gear",
+		color: 8421504,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}
